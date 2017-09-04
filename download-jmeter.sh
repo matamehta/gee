@@ -7,7 +7,7 @@
 if [ -f "$LOCAL_HOME/jmeter-ec2.properties" ] ; then
     . jmeter-ec2.properties
 else
-    JMETER_VERSION="apache-jmeter-2.10"
+    JMETER_VERSION="apache-jmeter-3.2"
 fi
 
 pluginsVersion="JMeterPlugins-Standard-1.1.2"
